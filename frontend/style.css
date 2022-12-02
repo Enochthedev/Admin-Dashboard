@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500&family=Lobster&family=Mochiy+Pop+One&family=Poppins&display=swap');
+
+/* ------Variables------ */
+:root {
+    --color-primary: #7380ec;
+    --color-danger: #ff4d4d;
+    --color-success: #00b300;
+    --color-warning: #ffbf00;
+    --color-white: #ffffff;
+    --color-info-dark:#7d8da1;
+    --color-info-light:#e6e9f0;
+    --color-dark: #363949;
+    --color-light: #f8f9fa;
+    --color-primary-variant: #111e88;
+    --color-dark-variant: #677483;
+    --color-background: #f6f6f9;
+
+    --card-border-radius: 2rem;
+    --border-radius-1: 0.4rem;
+    --border-radius-2: 0.8rem;
+    --border-radius-3: 1.2rem;
+
+    --card-padding: 1.8rem;
+    --padding-1: 0.8rem;
+
+    --box-shadow: 0 2rem 3rem var(--color-dark-variant);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    appearance: none;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 90.5%;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color-background);
+    font-size: 0.88rem;
+    font-family: poppins, sans-serif;
+    user-select: none;
+    overflow-x: hidden;
+}
+
+a{
+    color: var(--color-dark);
+}
+
+img{
+    width: 100%;
+    display: block
+}
+
+h1{
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+
+h2{
+    font-size: 1.4rem;
+}
+
+h3{
+    font-size: 0.87rem;
+}
+
+h4{
+    font-size: 0.8rem;
+}
+
+h5{
+    font-size: 0.77rem;
+}
+
+small{
+    font-size: 0.75rem;
+}
+
+.profile-photo{
+    width:2.8rem;
+    height:2.8rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.text-muted{
+    color: var(--color-info-dark);
+}

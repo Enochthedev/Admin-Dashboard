@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- material icon-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+outlined" 
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <a href="https://www.toluthedev.tech/">
+                        <img src="./Assets/images/toluthedevtrans.png">
+                        <h2>Tolu<span class="middle-text">the</span>dev</h2>
+                    </a>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-symbols-outlined">
+                        close
+                    </span>
+                </div>
+            </div>
+            
+            <div class="sidebar>
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                            dashboard
+                    </span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                            account_box
+                    </span>
+                    <h3>Users</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                            account_box
+                    </span>
+                    <h3>Users</h3>
+                </a>
+                <!-- make this collapsible-->
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        receipt_long
+                    </span>
+                    <h3>Orders</h3>
+                    <span class="material-symbols-outlined">
+                        arrow_drop_down
+                    </span>
+                    <div class="Orders">
+                        <div class="Orders-menu">
+                            <span class="material-symbols-outlined">
+                                list_alt
+                            </span>
+                            <h4>All orders</h4>
+                            <span class="all-orders"></span>
+                        </div>
+                        <div class="Orders-menu">
+                            <span class="material-symbols-outlined">
+                                pending
+                            </span>
+                            <h4>Pending Orders</h4>
+                            <span class="pending-orders" id="pending-orders"></span>
+                        </div>
+                        <div class="Orders-menu">
+                            <span class="material-symbols-outlined">
+                                order_approve
+                                </span>
+                            <h4>Completed Orders</h4>
+                            <span class="completed-orders"></span>
+                        </div>
+                    </div>
+                </a>
+                <!--end the collapse here-->
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        monitoring
+                    </span>
+                    <h3>Analysis</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        mail
+                        </span>
+                    <h3>Messages</h3>
+                    <span class="message-count"></span>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        inventory_2
+                    </span>
+                    <h3>Inventory</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        production_quantity_limits
+                    </span>
+                    <h3>Product errors and reports</h3>
+                    <span class="product-error"></span>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        support_agent
+                    </span>
+                    <h3>Customer Care Response</h3>
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        settings
+                    </span>
+                    <h3>Settings</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        add_business
+                    </span>
+                    <h3>Update Store</h3>
+                </a>
+
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        logout
+                    </span>
+                    <h3>Logout</h3>
+                </a>
+            </div>
+
+        </aside>
+    </div>
+    
+</body>
+<script src="index.js"></script>
+</html>
