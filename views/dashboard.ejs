@@ -14,21 +14,21 @@
 <body>
     <div class="container">
         <aside>
-            <div class="top">
-                <div class="logo">
-                    <a href="https://www.toluthedev.tech/">
+            <div class= "top">
+                <a href="https://www.toluthedev.tech/">
+                    <div class="logo">
                         <img src="/img/toluthedevtrans.png">
-                        <h2>Tolu<span class="middle-text">the</span>dev</h2>
-                    </a>
-                </div>
+                        <h2>Tolu<span class="danger">the</span>dev</h2>
+                    </div>
+                </a>
                 <div class="close" id="close-btn">
                     <span class="material-symbols-outlined">
                         close
                     </span>
                 </div>
             </div>
-            
-            <div class="sidebar>
+            <div class="sidebar">
+
                 <a href="#">
                     <span class="material-symbols-outlined">
                             dashboard
@@ -53,33 +53,34 @@
                         receipt_long
                     </span>
                     <h3>Orders</h3>
-                    <span class="material-symbols-outlined">
-                        arrow_drop_down
-                    </span>
-                    <div class="Orders">
-                        <div class="Orders-menu">
-                            <span class="material-symbols-outlined">
-                                list_alt
-                            </span>
-                            <h4>All orders</h4>
-                            <span class="all-orders"></span>
-                        </div>
-                        <div class="Orders-menu">
-                            <span class="material-symbols-outlined">
-                                pending
-                            </span>
-                            <h4>Pending Orders</h4>
-                            <span class="pending-orders" id="pending-orders"></span>
-                        </div>
-                        <div class="Orders-menu">
-                            <span class="material-symbols-outlined">
-                                order_approve
-                                </span>
-                            <h4>Completed Orders</h4>
-                            <span class="completed-orders"></span>
-                        </div>
-                    </div>
                 </a>
+                <!--collapsible section-->
+                <span class="material-symbols-outlined">
+                    arrow_drop_down
+                </span>
+                <div class="Orders">
+                    <div class="Orders-menu">
+                        <span class="material-symbols-outlined">
+                            list_alt
+                        </span>
+                        <h4>All orders</h4>
+                        <span class="all-orders"></span>
+                    </div>
+                    <div class="Orders-menu">
+                        <span class="material-symbols-outlined">
+                            pending
+                        </span>
+                        <h4>Pending Orders</h4>
+                        <span class="pending-orders" id="pending-orders"></span>
+                    </div>
+                    <div class="Orders-menu">
+                        <span class="material-symbols-outlined">
+                            order_approve
+                            </span>
+                        <h4>Completed Orders</h4>
+                        <span class="completed-orders"></span>
+                    </div>
+                </div>
                 <!--end the collapse here-->
                 <a href="#">
                     <span class="material-symbols-outlined">
@@ -92,7 +93,7 @@
                         mail
                         </span>
                     <h3>Messages</h3>
-                    <span class="message-count"></span>
+                    <span class="message-count" id="message-count"></span>
                 </a>
                 <a href="#">
                     <span class="material-symbols-outlined">
@@ -112,6 +113,8 @@
                         support_agent
                     </span>
                     <h3>Customer Care Response</h3>
+                    <span class="customer-care-response"></span>
+                </a>
                 <a href="#">
                     <span class="material-symbols-outlined">
                         settings
@@ -132,7 +135,6 @@
                     <h3>Logout</h3>
                 </a>
             </div>
-
         </aside>
     </div>
     

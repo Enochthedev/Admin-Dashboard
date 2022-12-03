@@ -20,5 +20,9 @@ app.listen(port, () => {
 
 // Path: routes/index.js
 app.get('/', (req, res) => {
-    res.render('index')
+    res.render('dashboard')
+    })
+
+app.get('/login', (req, res) => {
+    res.render('login')
     })
