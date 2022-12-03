@@ -4,8 +4,7 @@ const port = process.env.PORT || 3000;
 const cors = require('cors');
 //get index.html
 
-app.use('views', express.static(__dirname + '/views'));
-app.use('')
+
 
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
