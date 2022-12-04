@@ -165,7 +165,7 @@ aside .sidebar {
     background: var(--color-sidebar); 
     display: flex;
     flex-direction: column;
-    height: 86vh;
+    height: max-content;
     position: relative;
     top:3rem;
 }
@@ -188,3 +188,10 @@ aside .sidebar a{
 aside .sidebar a span {
     font-size: 1.6rem;
 }
+
+aside .sidebar a:last-child{
+    position: absolute;
+    width: 100%;
+    padding-top: 55rem;
+    padding-bottom: 10rem
+}   
