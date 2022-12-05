@@ -26,3 +26,20 @@ app.get('/', (req, res) => {
 app.get('/login', (req, res) => {
     res.render('login')
     })
+
+//employee register route with post method request name, password and email
+app.post('/register', (req, res) => {
+    const { name, email, password } = req.body
+    const employee = new Employee({
+        name,
+        email,
+        password
+    })
+    employee.save()
+        .then(() => {
+            res.send('employee registered')
+        })
+        .catch((err) => {
+            console.log(err)
+        })
+    })
